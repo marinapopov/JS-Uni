@@ -1,7 +1,7 @@
 //Ex1
 
 // for
-arr = [3, -5, 1, 6, 8, -2];
+// arr = [3, -5, 1, 6, 8, -2];
 
 // for (let i = 0; i < arr.length; i++) {
 //     console.log(arr[i]);
@@ -38,8 +38,26 @@ arr = [3, -5, 1, 6, 8, -2];
 // }
 
 // map 
-let testArr = arr.map(elemArr => {
-    return elemArr * 1;
-})
+// let testArr = arr.map(elemArr => {
+//     return elemArr * 1;
+// })
 
-console.log(testArr);
+// console.log(testArr);
+
+
+//Ex2
+
+const styles = ["Jazz", "Blues"];
+console.log(styles);
+
+const addElem = styles.push("Rock N Roll");
+console.log(styles);
+
+const removed = styles.splice(1, 1, "Classic");
+console.log(styles);
+
+styles.shift();
+console.log(styles);
+
+styles.unshift("Rap", "Raggy");
+console.log(styles);
